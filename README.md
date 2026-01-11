@@ -1,5 +1,5 @@
 # Task Tracker
-
+----
 ## Brief Summary
 The Task Tracker App is designed to help users organize their daily tasks, set priorities, and track their progress.
 
@@ -15,7 +15,7 @@ A task list is a collection of related tasks, grouped together for organizationa
 
 
 ## User Stories
-
+---
 ### Group Tasks into Task Lists
 **As a** project manager
 **I want** to be able to create multiple task lists for different projects
@@ -84,4 +84,5 @@ A task list is a collection of related tasks, grouped together for organizationa
 #### Acceptance Criteria
 1. Users are informed of their completion percentage of tasks in a task list.
 
- 
+---
+
