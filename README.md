@@ -89,15 +89,18 @@ A task list is a collection of related tasks, grouped together for organizationa
 ## API Endpoints
 
 
-| GET    | /task-lists                      | List Task Lists     |
-| ------ | -------------------------------- | ------------------- |
-| POST   | /task-lists                      | Create Task Lists   |
-| GET    | /task-lists/{task_list_id}       | Get Task List by ID |
-| PUT    | /task-lists/{task_list_id}       | Update Task List    |
-| DELETE | /task-lists/{task_list_id}       | Delete Task List    |
-|        |                                  |                     |
-| GET    | /task-lists/{task_list_id}/tasks | List Tasks          |
-| POST   | /task-lists/{task_list_id}/tasks | Create Task         |
+| GET    | /task-lists                                | List Task Lists     |
+| ------ | ------------------------------------------ | ------------------- |
+| POST   | /task-lists                                | Create Task Lists   |
+| GET    | /task-lists/{task_list_id}                 | Get Task List by ID |
+| PUT    | /task-lists/{task_list_id}                 | Update Task List    |
+| DELETE | /task-lists/{task_list_id}                 | Delete Task List    |
+|        |                                            |                     |
+| GET    | /task-lists/{task_list_id}/tasks           | List Tasks          |
+| POST   | /task-lists/{task_list_id}/tasks           | Create Task         |
+| GET    | /task-lists/{task_list_id}/tasks/{task_id} | Get Task by ID      |
+| PUT    | /task-lists/{task_list_id}/tasks/{task_id} | Update Task         |
+| DELETE | /task-lists/{task_list_id}/tasks/{task_id} | Delete Task         |
 
 
 
